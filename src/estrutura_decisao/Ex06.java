@@ -12,7 +12,7 @@ public class Ex06 {
         System.out.println("Digite o segundo número: ");
         double num2 = Double.parseDouble(input.nextLine());
 
-        System.out.println("Digite o terceira número: ");               
+        System.out.println("Digite o terceiro número: ");               
         double num3 = Double.parseDouble(input.nextLine());
 
         double maior = num1;
