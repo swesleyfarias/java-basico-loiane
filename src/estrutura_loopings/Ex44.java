@@ -26,27 +26,32 @@ public class Ex44 {
             switch(voto) {
                 case 1:
                     canditado1++;
+                    votoTotal++;
                     break;
                 case 2:
                     canditado2++;
+                    votoTotal++;
                     break;
                 case 3:
                     canditado3++;
+                    votoTotal++;
                     break;
                 case 4:
                     canditado4++;
+                    votoTotal++;
                     break;
                 case 5:
                     votoNulo++;
+                    votoTotal++;
                     break;
                 case 6:
                     votoBranco++;
+                    votoTotal++;
                     break;
                 default:
                     System.out.println("Erro, voto não computado.");                        
                     break;                   
-            }
-            votoTotal++;
+            }           
         }
         
         double percentagemNulo = ((double) votoNulo/votoTotal) * 100;

@@ -51,7 +51,10 @@ public class Ex40 {
         }
 
         media_veiculos= media_veiculos/5;
-        media_acidentes = media_acidentes/cont;
+        if (cont>0) {
+            media_acidentes = media_acidentes/cont;
+        }
+        
 
         System.out.printf("%nMaior indice de acidentes: %d%n", indice_maior);
         System.out.printf("Código da cidade: %d%n", cod_maior);
