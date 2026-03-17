@@ -11,10 +11,10 @@ public class Ex07 {
         int[] c = new int[10];
 
         for (int i = 0; i<a.length; i++) {
-            System.out.println("Digite o valor da posição em A: ");
+            System.out.println("Digite o valor da posição " + i + " em A: ");
             a[i]= Integer.parseInt(input.nextLine());
 
-            System.out.println("Digite o valor da posição em B: ");
+            System.out.println("Digite o valor da posição " + i + " em A: ");
             b[i]= Integer.parseInt(input.nextLine());
             c[i]= a[i]-b[i];
         }
