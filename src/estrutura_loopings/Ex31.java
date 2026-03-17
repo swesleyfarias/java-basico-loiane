@@ -34,7 +34,7 @@ class Ex31 {
                 
             double troco = dinheiro-total;
             System.out.printf("Troco: R$ %.2f%n", troco);
-            System.out.println("\n----Próximo Cliente---");          
+            System.out.println("\n----Próximo Cliente---");                   
         }
     }
 }
