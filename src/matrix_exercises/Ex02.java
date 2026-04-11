@@ -7,37 +7,34 @@ public class Ex02 {
         Random randomNumbers = new Random();
 
         int[][] matrix = new int[10][10];
-        int highestRow, lowestRow;
-        int highestCol, lowestCol;
+        int highestRow = Integer.MIN_VALUE, highestCol = Integer.MIN_VALUE;
+        int lowestRow = Integer.MAX_VALUE, lowestCol = Integer.MAX_VALUE;
+
+        int targetRow = 5, targetCol = 7;
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                matrix[i][j] = randomNumbers.nextInt(10);
+                matrix[i][j] = randomNumbers.nextInt(100);
                 System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }
 
-        highestRow = matrix[5][0];
-        lowestRow = matrix[5][0];
-        highestCol = matrix[0][7];
-        lowestCol = matrix[0][7];
-
-        for (int j = 0; j < matrix.length; j++) {
-            if (matrix[5][j] > highestRow) {
-                highestRow = matrix[5][j];
+        for (int j = 0; j < matrix[targetRow].length; j++) {
+            if (matrix[targetRow][j] > highestRow) {
+                highestRow = matrix[targetRow][j];
             }
-            if (matrix[5][j] < lowestRow) {
-                lowestRow = matrix[5][j];
+            if (matrix[targetRow][j] < lowestRow) {
+                lowestRow = matrix[targetRow][j];
             }
         }
 
         for (int i = 0; i < matrix.length; i++) {
-            if (matrix[i][7] > highestCol) {
-                highestCol = matrix[i][7];
+            if (matrix[i][targetCol] > highestCol) {
+                highestCol = matrix[i][targetCol];
             }
-            if (matrix[i][7] < lowestCol) {
-                lowestCol = matrix[i][7];
+            if (matrix[i][targetCol] < lowestCol) {
+                lowestCol = matrix[i][targetCol];
             }
         }
 

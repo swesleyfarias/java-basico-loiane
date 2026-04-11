@@ -6,11 +6,12 @@ public class Ex01 {
     public static void main(String[] args) {
         Random randomNumbers = new Random();
         int[][] matrix = new int[4][4];
-        int highest = 0, rowPosition = 0, colPosition = 0;
+        int highest = Integer.MIN_VALUE;
+        int rowPosition = 0, colPosition = 0;
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                matrix[i][j] = randomNumbers.nextInt(10);
+                matrix[i][j] = randomNumbers.nextInt(100);
                 System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
@@ -18,9 +19,7 @@ public class Ex01 {
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-
                 if (matrix[i][j] > highest) {
-                    highest = matrix[i][j];
                     rowPosition = i;
                     colPosition = j;
                 }
