@@ -128,7 +128,7 @@ public class Ex06 {
                     System.out.println("Player 2 (O) won the game!");
                 }
                 running = false;
-                
+
             } else if (moveCount == 9) {
                 for (int i = 0; i < board.length; i++) {
                     for (int j = 0; j < board[i].length; j++) {
