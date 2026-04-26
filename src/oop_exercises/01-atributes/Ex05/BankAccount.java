@@ -1,4 +1,4 @@
-package oop_exercises.Ex05;
+
 
 public class BankAccount {
     int accountNumber;

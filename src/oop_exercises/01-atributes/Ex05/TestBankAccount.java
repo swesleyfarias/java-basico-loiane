@@ -1,5 +1,3 @@
-package oop_exercises.Ex05;
-
 public class TestBankAccount {
     public static void main(String[] args) {
         BankAccount person1 = new BankAccount();

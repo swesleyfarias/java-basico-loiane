@@ -1,10 +1,11 @@
-package oop_exercises.Ex02;
 
-public class Book {
+
+public class BookstoreBook {
     String title;
     String author;
     String publisher;
     String isbn;
     int year;
     int pages;
+    double price;
 }

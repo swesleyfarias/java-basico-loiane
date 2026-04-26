@@ -1,5 +1,3 @@
-package oop_exercises.Ex06;
-
 public class TestContact {
     public static void main(String[] args) {
         Contact contact1 = new Contact();
