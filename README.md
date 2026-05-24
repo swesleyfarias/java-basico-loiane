@@ -1,8 +1,32 @@
-# Exercícios de Java - Curso Loiane Groner
+# Java Exercises - Loiane Groner Course
 
-Repositório dedicado aos exercícios do curso gratuito da Loiane Groner no youtube, cobrindo desde os operadores básicos até Exceptions.
+Repository dedicated to Java exercises from Loiane Groner's free course.
 
-### Minha Trajetória:
-Antes de começar aqui, concluí o curso de algoritmos do Gustavo Guanabara. Como ele ensinava em Portugol, decidi "traduzir" todos os desafios diretamente para Java por conta própria. 
+The main goal of this repository is to build a strong foundation in:
+- Logic programming
+- Object-Oriented Programming (OOP)
+- Java fundamentals
 
-Isso me deu a base lógica necessária para agora consolidar os fundamentos da linguagem e avançar para o meu objetivo principal: **Programação Orientada a Objetos (POO)**.
+## My Journey
+
+Before starting this repository, I completed Gustavo Guanabara's Algorithms course, where I learned programming logic using Portugol.
+
+To reinforce my learning, I decided to recreate the exercises in Java by myself. This helped me develop logical thinking and better understand the language fundamentals.
+
+Since the OOP section, I started organizing classes, methods, and projects using English naming conventions to gradually improve both my programming skills and technical English.
+
+## Topics Studied
+
+- Sequential structures
+- Conditional structures
+- Loops
+- Arrays
+- Matrices
+- Methods
+- Object-Oriented Programming (OOP)
+- Encapsulation
+- Exceptions *(in progress)*
+
+## Current Goal
+
+Currently studying Java and preparing to pursue a Computer Science degree at UFRJ, focusing on backend development and cloud computing in the future.
