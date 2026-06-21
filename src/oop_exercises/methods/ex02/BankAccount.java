@@ -1,9 +1,18 @@
 package oop_exercises.methods.ex02;
+
 public class BankAccount {
     int number;
     double balance;
     double limit;
     boolean isSpecial;
+
+    void limit(double limit_) {
+        if (isSpecial) {
+            limit = limit_;
+        } else {
+            limit = 0;
+        }
+    }
 
     void withdrawal(double cash) {
         if (balance + limit >= cash) {
