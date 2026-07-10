@@ -1,6 +1,7 @@
-package oop_exercises.static_members.ex04;
+package oop_exercises.static_members.ex05;
 
 public class VolumeConversion {
+    
     public static double litersToCubicCentimeters(double liters) {
         return liters * 1000;
     }
