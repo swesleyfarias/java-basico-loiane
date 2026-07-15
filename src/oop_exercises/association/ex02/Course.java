@@ -42,27 +42,27 @@ public class Course {
         return sum / students.length;
     }
 
-    public String getInfoCourse() {
-        String infoCourse = ("\n" + getName() + " " + getSchedule());
+    public String getCourseInfo() {
+        String courseInfo = ("\n" + getName() + " " + getSchedule());
 
         if (teacher != null) {
-            infoCourse += teacher.getTeacherInfo();
+            courseInfo += teacher.getTeacherInfo();
         } else {
-            infoCourse += ("\nThere's not a teacher.");
+            courseInfo += ("\nThere's not a teacher.");
         }
 
         if (students != null) {
             for (Student i : this.students) {
                 if (i != null) {
-                    infoCourse += i.getStudentInfo();
+                    courseInfo += i.getStudentInfo();
                 }
             }
+            
+            courseInfo += ("\nClass average: " + getClassAverage());
         } else {
-            infoCourse += ("\nThere aren't students.");
+            courseInfo += ("\nThere aren't students.");
         }
-
-        infoCourse += ("\nClass average: " + getClassAverage());
-
-        return infoCourse + "\n";
+      
+        return courseInfo + "\n";
     }
 }

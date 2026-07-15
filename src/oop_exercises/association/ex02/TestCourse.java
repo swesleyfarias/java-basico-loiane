@@ -55,7 +55,7 @@ public class TestCourse {
         course.setStudents(students);
 
         if (course != null) {
-            System.out.println(course.getInfoCourse());
+            System.out.println(course.getCourseInfo());
         }
         sc.close();
     }
